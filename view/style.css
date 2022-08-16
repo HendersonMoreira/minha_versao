@@ -1,0 +1,95 @@
+/* Importa as folhas de estilo globais */
+@import url('/style.css');
+@import url('../contacts/style.css');
+
+#comment {
+    border: none;
+    margin: 0;
+}
+
+#comment button {
+    display: block;
+    margin: .5rem 0 0 .5rem;
+}
+
+aside .author img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+aside .author h4 {
+    margin: .25rem 0 0 0;
+    text-align: center;
+}
+
+.age {
+    margin: .25rem 0 0 0;
+    text-align: center;
+}
+
+aside ul {
+    margin: 0;
+    padding: 0 0 0 .8rem;
+    line-height: 1.4;
+}
+
+.comment-item {
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
+.comment-info {
+    padding: .4rem;
+    font-size: small;
+    border-bottom: 1px dotted grey;
+    display: flex;
+    align-items: center;
+}
+
+.comment-info img {
+    display: block;
+    margin-right: .4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.author-date {
+    flex-grow: 1;
+    line-height: 1.4;
+}
+
+div.comment-content {
+    padding: .5rem;
+}
+
+.comment-sended {
+    background: rgb(196, 255, 196);
+    color: rgb(0, 72, 0);
+    padding: .5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    border-radius: .3rem;
+}
+
+.author-tools {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+}
+
+.edit-form textarea {
+    border: none !important;
+    border-radius: 0 !important;
+    background: rgb(230, 230, 230) !important;
+}
+
+.edit-form button {
+    display: block;
+    margin: auto;
+}

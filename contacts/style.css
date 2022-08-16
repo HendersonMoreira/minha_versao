@@ -1,0 +1,72 @@
+@import url('/style.css');
+
+form {
+    display: block;
+}
+
+form label {
+    display: block;
+    padding: 0 0 0.3rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+form input, form textarea {
+    width: 100%;
+}
+
+form textarea {
+    height: 6rem;
+    resize: vertical;
+}
+
+form button {
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+form button:hover {
+    color: #000;
+    background: #fff;
+}
+
+form input:invalid, form textarea:invalid {
+    background: rgb(255, 207, 207);
+    border-bottom: 3px solid red;
+}
+
+form input:valid, form textarea:valid {
+    background: rgb(232, 240, 254);
+    border-bottom: 3px solid green;
+}
+
+form:invalid button {
+    background: rgb(165, 165, 165);
+    color: rgb(221, 221, 221);
+    cursor: not-allowed;
+    border: 1px solid transparent;
+}
+
+form input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+.aside-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-social a {
+    display: block;
+    margin-bottom: .75rem;
+}
